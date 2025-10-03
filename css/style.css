@@ -62,4 +62,23 @@ h1 {
 button {
     width: 20em;
     height: 5em;
+
+    transition: all 0.2s;
+
+    background-color: rgb(39,65,86);
+    border-radius: 30px;
+    border: 2px solid rgba(91,58,112);
+}
+
+button:hover {
+    background-color: rgb(91,58,112);
+    border-radius: 30px;
+    border: 4px solid rgba(39,65,86);
+
+    width: 21em;
+    height: 6em;
+}
+
+button:active {
+    background-color: rgb(139,30,63);
 }
