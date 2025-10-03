@@ -5,7 +5,20 @@
 
 @font-face {
     font-family: "ArcaneFont";
-    src: url("../font/Arcane\ Nine.otf") format("opentype");
+    src: url("../font/Arcane Nine.otf") format("opentype");
+}
+
+nav a, nav a:visited {
+    transition: all 0.2s;
+
+    text-decoration: none;
+    color: rgb(209,163,73);
+}
+
+nav a:hover
+{
+    color: rgb(39,65,86);
+    text-shadow: 2px 2px 2px black;
 }
 
 html,
