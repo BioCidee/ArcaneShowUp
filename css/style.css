@@ -12,6 +12,9 @@ html,
 body{
     display: flex;
     flex-direction: column;
+
+    font-family: "ArcaneFont";
+    height: 100%;
 }
 
 nav > ul {
@@ -23,7 +26,6 @@ nav > ul {
 
 li {
     list-style: none;
-    font-family: "ArcaneFont";
     font-size: 1.8em;
 }
 
@@ -33,10 +35,31 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
     background-color: rgb(139,30,63);
 }
 
+.title {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 7em;
+
+    background-image: url(https://wallpapers.com/images/hd/arcane-league-of-legends-at-night-dw1s1jkv8aqvjbpk.jpg);
+    background-position: center;
+}
+
 h1 {
-    font-family: "ArcaneFont";
+    font-size: 10em;
+    color: rgb(209,163,73);
+    text-shadow: -2px 2px 0px rgba(0,0,0,0.5);
+}
+
+button {
+    width: 20em;
+    height: 5em;
 }
