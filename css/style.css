@@ -1,0 +1,42 @@
+* {
+    margin: 0; 
+    padding: 0;  
+}
+
+@font-face {
+    font-family: "ArcaneFont";
+    src: url("../font/Arcane\ Nine.otf") format("opentype");
+}
+
+html,
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 13em;
+    margin-left: 3em;
+}
+
+li {
+    list-style: none;
+    font-family: "ArcaneFont";
+    font-size: 1.8em;
+}
+
+nav {
+    height: 3em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgb(139,30,63);
+}
+
+h1 {
+    font-family: "ArcaneFont";
+}
