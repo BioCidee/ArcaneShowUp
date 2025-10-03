@@ -73,8 +73,11 @@ h1 {
 }
 
 button {
-    width: 20em;
-    height: 5em;
+    width: 10em;
+    height: 2em;
+
+    font-family: "ArcaneFont";
+    font-size: 2em;
 
     transition: all 0.2s;
 
@@ -88,10 +91,11 @@ button:hover {
     border-radius: 30px;
     border: 4px solid rgba(39,65,86);
 
-    width: 21em;
-    height: 6em;
+    width: 11em;
+    height: 3em;
 }
 
 button:active {
     background-color: rgb(139,30,63);
 }
+
